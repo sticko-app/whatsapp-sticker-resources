@@ -1,0 +1,35 @@
+{
+  "android_play_store_link": "https://play.google.com/store/apps/details?id=com.example.stickers",
+  "ios_app_store_link": "",
+  "sticker_packs": [
+    {
+      "identifier": "office_cats",
+      "name": "Office Cats",
+      "publisher": "Example Studio",
+      "tray_image_file": "tray_office_cats.png",
+      "image_data_version": "1",
+      "publisher_email": "hello@example.com",
+      "publisher_website": "https://example.com",
+      "privacy_policy_website": "https://example.com/privacy",
+      "license_agreement_website": "https://example.com/license",
+      "animated_sticker_pack": false,
+      "stickers": [
+        {
+          "image_file": "01_hello.webp",
+          "emojis": ["👋", "😀"],
+          "accessibility_text": "A grey cat in a tie waves a paw, with text that reads \"Hello\" in English."
+        },
+        {
+          "image_file": "02_coffee.webp",
+          "emojis": ["☕", "😴"],
+          "accessibility_text": "A sleepy orange cat hugs a large mug of coffee."
+        },
+        {
+          "image_file": "03_lol.webp",
+          "emojis": ["😂", "🤣"],
+          "accessibility_text": "A black cat laughs so hard it falls off an office chair."
+        }
+      ]
+    }
+  ]
+}
