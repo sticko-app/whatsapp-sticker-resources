@@ -1,0 +1,5 @@
+blank_issues_enabled: true
+contact_links:
+  - name: WhatsApp's official sticker documentation
+    url: https://github.com/WhatsApp/stickers
+    about: Questions about the WhatsApp sticker sample apps themselves belong there.

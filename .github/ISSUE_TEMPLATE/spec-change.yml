@@ -1,0 +1,24 @@
+name: A limit or rule is out of date
+description: WhatsApp changed a size, format or pack rule and these docs no longer match.
+labels: [spec-change]
+body:
+  - type: input
+    id: page
+    attributes:
+      label: Which page?
+      placeholder: e.g. docs/animated-whatsapp-stickers.md
+    validations:
+      required: true
+  - type: textarea
+    id: change
+    attributes:
+      label: What is wrong, and what is correct now?
+    validations:
+      required: true
+  - type: input
+    id: source
+    attributes:
+      label: Source
+      description: A link to WhatsApp's documentation, release notes, or a reproducible test.
+    validations:
+      required: true

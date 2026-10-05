@@ -1,0 +1,35 @@
+name: My sticker or pack is rejected
+description: WhatsApp refuses a sticker or pack and the troubleshooting page didn't help.
+labels: [question]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please run the checker first and paste its output below:
+        `bash scripts/check-stickers.sh path/to/pack`
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Platform
+      options: [Android, iPhone, Both]
+    validations:
+      required: true
+  - type: dropdown
+    id: kind
+    attributes:
+      label: Sticker type
+      options: [Static, Animated]
+    validations:
+      required: true
+  - type: textarea
+    id: output
+    attributes:
+      label: check-stickers.sh output
+      render: text
+  - type: textarea
+    id: details
+    attributes:
+      label: What happens?
+      description: The exact error message, and what tool made the WebP files (cwebp, ffmpeg, an app…).
+    validations:
+      required: true

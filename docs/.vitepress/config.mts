@@ -52,7 +52,9 @@ export default defineConfig({
     ['meta', { name: 'theme-color', content: '#5b23dd' }],
     ['meta', { property: 'og:type', content: 'website' }],
     ['meta', { property: 'og:site_name', content: TITLE }],
-    ['meta', { property: 'og:image', content: 'https://sticko.app/static/og/sticko-og-default.jpg' }],
+    ['meta', { property: 'og:image', content: `${SITE_URL}/social-preview.jpg` }],
+    ['meta', { property: 'og:image:width', content: '1280' }],
+    ['meta', { property: 'og:image:height', content: '640' }],
     ['meta', { name: 'twitter:card', content: 'summary_large_image' }],
     ['script', { type: 'application/ld+json' }, JSON.stringify(jsonLd)]
   ],
