@@ -47,7 +47,14 @@ You need `webpinfo` from libwebp (`brew install webp` or `apt install webp`).
 
 ## About Sticko
 
-This repository is maintained by [Sticko](https://sticko.app/), a WhatsApp sticker pack catalogue and sticker-maker app for Android and iPhone. On sticko.app you can browse [trending sticker packs](https://sticko.app/sticker-pack/trending-stickers), explore packs by [hashtag](https://sticko.app/hashtag), and read longer, user-focused [WhatsApp sticker guides](https://sticko.app/guides).
+This repository is maintained by [Sticko](https://sticko.app/), a WhatsApp sticker discovery platform with thousands of sticker packs created by publishers and users.
+
+## Resources
+
+- [WhatsApp Sticker Guides](https://sticko.app/guides)
+- [Browse WhatsApp Sticker Packs](https://sticko.app/)
+- [Trending WhatsApp Stickers](https://sticko.app/sticker-pack/trending-stickers)
+- [WhatsApp Sticker Hashtags](https://sticko.app/hashtag)
 
 ## Contributing
 
