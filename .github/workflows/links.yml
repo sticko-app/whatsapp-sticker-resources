@@ -19,6 +19,8 @@ jobs:
         with:
           args: >-
             --no-progress
+            --root-dir '${{ github.workspace }}/docs'
+            --fallback-extensions md
             --exclude-path node_modules
             --exclude '^https://sticko-app\.github\.io/'
             --exclude '^https://raw\.githubusercontent\.com/sticko-app/'
